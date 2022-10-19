@@ -1,0 +1,27 @@
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.deps.json
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.dll
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.pdb
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfo.cs
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.dll
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.pdb
+C:\Users\USER\source\repos\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csproj.AssemblyReference.cache
+C:\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.deps.json
+C:\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.dll
+C:\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.pdb
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csprojAssemblyReference.cache
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfoInputs.cache
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfo.cs
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csproj.CoreCompileInputs.cache
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.dll
+C:\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.deps.json
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.dll
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\bin\Debug\netstandard2.1\Domains.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.AssemblyInfo.cs
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.dll
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\Domains\obj\Debug\netstandard2.1\Domains.pdb

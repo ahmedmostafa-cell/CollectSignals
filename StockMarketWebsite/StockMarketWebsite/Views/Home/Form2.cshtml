@@ -1,0 +1,332 @@
+﻿
+@{
+    Layout = "";
+}
+@model Domains.TbRequest
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Form Layouts - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="~/Admin/app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/Admin/app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/vendors/css/vendors.min.css">
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/core/colors/palette-gradient.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/assets/css/style.css">
+    <!-- END: Custom CSS-->
+    <style>
+        section {
+           
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern dark-layout 2-columns  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="2-columns" data-layout="dark-layout">
+
+  
+   
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+          
+            <div class="content-body">
+                <!-- Basic Horizontal form layout section start -->
+                <section  id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <div class="card">
+                             
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <form class="form form-horizontal" method="post" role="form" asp-controller="Home" asp-action="Payment">
+                                            <div class="form-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color:#262C49; text-align:center">
+                                                                <span>SUBSCRIPTION TYPE</span>
+                                                            </div>
+                                                            <fieldset class="form-group col-md-6">
+                                                                <select name="SubscriptionType" class="form-control" id="basicSelect1" required>
+                                                                    <option selected="selected">
+                                                                        CHOOSE
+                                                                    </option>
+                                                                    <option value="0">TRIAL</option>
+                                                                    <option value="1">PRO</option>
+
+                                                                </select>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color: #262C49; text-align: center;">
+                                                                <span>SUBSCRIPTION PERIOD</span>
+                                                            </div>
+                                                            <fieldset class="form-group col-md-6">
+                                                                <select name="SubscriptionPeriod" class="ahmed form-control" id="basicSelect2"  required>
+                                                                    <option selected="selected">
+                                                                    </option>
+                                                                    <option value="0" >
+                                                                        24 HOURS
+                                                                    </option>
+
+                                                                    <option value="1" >WEEKLY</option>
+                                                                    <option value="2">MONTHLY</option>
+                                                                </select>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color: #262C49; text-align: center">
+                                                                <span>SUBSCRIPTION FEE</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input name="SubscriptionFee" type="text" id="first-name" class="form-control"  placeholder="SUBSCRIPTION FEE" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-10" style="background-color: #262C49; text-align: center">
+                                                                <span>DOWNLOAD STRATEGY PDF BOOK FOR $ 1</span>
+                                                            </div>
+                                                            <fieldset class="col-md-2">
+                                                                <div class="vs-checkbox-con vs-checkbox-primary">
+                                                                    <input asp-for="CreatedBy"  id="check_id" type="checkbox" >
+                                                                    <span class="vs-checkbox">
+                                                                        <span class="vs-checkbox--check">
+                                                                            <i class="vs-icon feather icon-check"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="">Active</span>
+                                                                </div>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color: #262C49; text-align: center">
+                                                                <span>TRADING VIEW USER NAME</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input asp-for="UserName" type="text" id="contact-info" class="form-control" placeholder="TRADING VIEW USER NAME" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color: #262C49; text-align: center">
+                                                                <span>YOUR Email</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input asp-for="Email"  type="email" id="email-id" class="form-control"  placeholder="Email" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group row">
+                                                            <div class="form-control col-md-6" style="background-color: #262C49; text-align: center">
+                                                                <span>TOTAL AMOUNT</span>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input name="TotalProfit" type="text" id="password" class="form-control"  placeholder="TOTAL AMOUNT">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12">
+                                                       
+                                                            
+                                                                <button style="width:100%;background-color: #262C49; text-align: center" id="submit" type="submit" class="btn btn-primary " disabled>PAY NOW BY BINANCE PAY</button>
+
+                                                           
+                                                      
+                                                     </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </section>
+              
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix blue-grey lighten-2 mb-0">
+            <span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2020<a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent,</a>All rights Reserved</span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i class="feather icon-heart pink"></i></span>
+            <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="feather icon-arrow-up"></i></button>
+        </p>
+    </footer>
+    <!-- END: Footer-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="~/Admin/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="~/Admin/app-assets/js/core/app-menu.js"></script>
+    <script src="~/Admin/app-assets/js/core/app.js"></script>
+    <script src="~/Admin/app-assets/js/scripts/components.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+    <!-- END: Page JS-->
+    <script>
+      
+        $('#basicSelect1').change(function () {
+            if (($(this).val()) == '0') {
+                optText = '24 HOURS';
+                optValue = '0';
+                $('#basicSelect2').append(`<option value="${optValue}">${optText}</option>`);
+               
+                $("#basicSelect2").val('0');
+                //$("#basicSelect2").prop("disabled", true);
+                $("#first-name").val(' 1');
+                //$("#first-name").prop("disabled", true);
+                $("#password").val(' 1');
+                //$("#password").prop("disabled", true);
+                $('#check_id').click(function () {
+                    if ($('#check_id').is(':checked')) {
+                        $("#password").val(' 2');
+                        //$("#password").prop("disabled", true);
+
+                    } else {
+                        $("#password").val(' 1');
+                        //$("#password").prop("disabled", true);
+
+                    }
+
+                });
+
+                
+                
+            }
+            else if (($(this).val()) == '1') {
+                $(".ahmed option[value='0']").remove();
+                $("#first-name").val(' ');
+                $("#password").val(' ');
+
+                $('#check_id').prop('checked', false);
+               
+                //$("#basicSelect2").prop("disabled", false);
+                $('#basicSelect2').change(function () {
+                    $('#check_id').prop('checked', false);
+                    if (($(this).val()) == '1') {
+                        $("#first-name").val(' 5');
+                        //$("#first-name").prop("disabled", true);
+                        $("#password").val('$ 5');
+                        //$("#password").prop("disabled", true);
+                        $('#check_id').click(function () {
+                            if ($('#check_id').is(':checked')) {
+                                $("#password").val(' 6');
+                                //$("#password").prop("disabled", true);
+
+                            } else {
+                                $("#password").val(' 5');
+                                //$("#password").prop("disabled", true);
+
+                            }
+                           
+                        });
+                    } else {
+                        $("#first-name").val(' 10');
+                        $("#password").val(' 10');
+                        //$("#first-name").prop("disabled", true);
+                        $('#check_id').click(function () {
+                            if ($('#check_id').is(':checked')) {
+                                $("#password").val(' 11');
+                                //$("#password").prop("disabled", true);
+
+                            } else {
+                                $("#password").val(' 10');
+                                //$("#password").prop("disabled", true);
+
+                            }
+
+                        });
+                    }
+
+                })
+              
+              
+            };
+            
+           
+        });
+
+        const submitBtn = document.getElementById('submit');
+        
+        const email = document.getElementById('email-id')
+        const comment = document.getElementById('contact-info')
+
+        function updateSubmitBtn() {
+           
+            const emailValue = email.value.trim();
+            const commentValue = comment.value.trim();
+            debugger;
+            if ( emailValue && commentValue) {
+                submitBtn.removeAttribute('disabled');
+            } else {
+                submitBtn.setAttribute('disabled', 'disabled');
+            }
+        }
+
+      
+        email.addEventListener('change', updateSubmitBtn);
+        comment.addEventListener('change', updateSubmitBtn);
+    </script>
+
+</body>
+<!-- END: Body-->
+
+</html>

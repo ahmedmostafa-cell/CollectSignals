@@ -1,0 +1,189 @@
+﻿
+
+@{
+    Layout = "";
+}
+@model Domains.TbRequest
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Maintenance - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="~/Admin/app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/Admin/app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/vendors/css/vendors.min.css">
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/app-assets/css/core/colors/palette-gradient.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/Admin/assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+
+<body style="overflow:hidden" class="vertical-layout vertical-menu-modern dark-layout 1-column  navbar-floating footer-static   blank-page blank" data-open="click" data-menu="vertical-menu-modern" data-col="1-column" data-layout="dark-layout">
+    <!-- BEGIN: Content-->
+    <div class="app-content ">
+        <div class="content-overlay"></div>
+
+
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <!-- maintenance -->
+                <section class="row flexbox-container">
+                    <div class="col-xl-7 col-md-8 col-12 d-flex justify-content-center">
+                        <div class="card auth-card bg-transparent shadow-none rounded-0 mb-0 w-100">
+                            <div class="card-content">
+                                <div class="card-body text-center">
+                                    <div style="color:white">SCAN AND SEND</div>
+                                    <br />
+                                    <img style="width:200px; height:200px" src="~/Admin/app-assets/images/pages/WhatsApp Image 2022-10-06 at 9.52.18 AM.jpeg" class="img-fluid align-self-center" alt="branding logo">
+                                    <br />
+                                    <br />
+
+
+                                    <input type="hidden" id="myInput" value="2145667892">
+                                    <div style="color: white">MY PAY ID&nbsp;&nbsp;&nbsp;214092782</div>
+                                    <br />
+                                    <div class="col-md-4 offset-md-4">
+                                        <button type="submit" class="btn btn-success mr-1 mb-1" onclick="myFunction()">COPY PAY ID</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group row">
+                                    <div class="form-control col-md-12" style="height:auto;max-height:auto;width:auto;max-width:auto;margin:auto;background-color:yellow; text-align:center; text-decoration-color:black;">
+                                        YOUR REQUEST WILL BE PROCESSED WITHIN 24 HOURS AND WE WILL CONTACT YOU VIA EMAIL
+                                      
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+
+                @*<form class="form form-horizontal" method="post" role="form" asp-controller="Home" asp-action="saveToDatabase">
+            <div class="form-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-warning mr-1 mb-1">PAY  BY BINANCE PAY</button>
+
+
+                            </div>
+                            <div class="col-md-4">
+                                <input style="outline: 2px orange solid;" asp-for="BiancePayId" type="text" id="contact-info" class="form-control" required>
+                                <input type="hidden" asp-for="SubscriptionType" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="PdfFee" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="DateOfRequest" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="CreatedBy" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="SubscriptionPeriod" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="SubscriptionFee" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="UserName" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="Email" id="contact-info" class="form-control">
+                                <input type="hidden" asp-for="TotalProfit" id="contact-info" class="form-control">
+
+                            </div>
+                            <div class="col-md-4">
+                                <button id="submit" type="submit" class="btn btn-danger mr-1 mb-1" disabled>PAY  BY BINANCE PAY</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>*@
+                <!-- maintenance end -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="~/Admin/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="~/Admin/app-assets/js/core/app-menu.js"></script>
+    <script src="~/Admin/app-assets/js/core/app.js"></script>
+    <script src="~/Admin/app-assets/js/scripts/components.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+    <!-- END: Page JS-->
+    <script>
+        const submitBtn = document.getElementById('submit');
+
+
+        const comment = document.getElementById('contact-info')
+
+        function updateSubmitBtn() {
+
+
+            const commentValue = comment.value.trim();
+            debugger;
+            if (commentValue) {
+                submitBtn.removeAttribute('disabled');
+            } else {
+                submitBtn.setAttribute('disabled', 'disabled');
+            }
+        }
+
+
+
+        comment.addEventListener('change', updateSubmitBtn);
+
+
+
+        function myFunction() {
+            // Get the text field
+            var copyText = document.getElementById("myInput");
+
+
+
+            // Copy the text inside the text field
+            navigator.clipboard.writeText(copyText.value);
+
+
+        }
+    </script>
+
+</body>
+<!-- END: Body-->
+
+</html>

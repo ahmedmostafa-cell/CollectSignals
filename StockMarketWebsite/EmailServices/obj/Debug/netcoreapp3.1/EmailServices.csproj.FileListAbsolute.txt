@@ -1,0 +1,30 @@
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+C:\Users\USER\source\repos\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+C:\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+C:\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+C:\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csprojAssemblyReference.cache
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+C:\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\Domains.dll
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\bin\Debug\netcoreapp3.1\Domains.pdb
+C:\Users\USER\source\repos\New folder (3)\StockMarketWebsite\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CopyComplete
